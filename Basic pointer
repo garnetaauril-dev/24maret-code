@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main () {
+    int x = 8;
+    int *ptr_x = &x;
+
+    printf("Isi variabel x: %d\n", x);
+    printf("Alamat variabel x: %p\n", (void*)&x);
+    printf("Data yang ditunjuk oleh variabel ptr_x: %d\n", *ptr_x);
+
+    return 0;
+}
