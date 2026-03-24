@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main () {
+    int a = 12;
+    int *ptr_a = &a;
+
+    printf("Nilai variabel a: %d\n", a);
+
+    *ptr_a = 25;
+    printf("Nilai variabel a setelah diubah melalui pointer: %d\n", a);
+
+    return 0;
+}
