@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void kali2(int *x) {
+    *x = *x * 2;
+}
+
+int main () {
+    int num = 6;
+
+    printf("Nilai awal num: %d\n", num);
+    kali2(&num);
+    printf("Nilai num setelah dikali 2: %d\n", num);
+
+    return 0;
+}
